@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pnpm install --frozen-lockfile
+          pnpm install
           pnpm audit
 
       - name: Build
