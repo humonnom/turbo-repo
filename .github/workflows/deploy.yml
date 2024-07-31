@@ -39,4 +39,4 @@ jobs:
             git pull origin main
             pnpm install --frozen-lockfile
             pnpm run build
-            pm2 restart your-app-name
+            pm2 restart turbo-repo 
